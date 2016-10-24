@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="18" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="200" y="92">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1394502643827" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DependentDetails.java" partName="DependentDetails.java" path="D:/selenium/BA2/sources/test/src/com/test/DependentDetails.java" title="DependentDetails.java" tooltip="test/src/com/test/DependentDetails.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/DependentDetails.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="255" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MA_UploadPanelClaims.java" partName="MA_UploadPanelClaims.java" path="D:/selenium/BA2/sources/test/src/com/test/MA_UploadPanelClaims.java" title="MA_UploadPanelClaims.java" tooltip="test/src/com/test/MA_UploadPanelClaims.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/MA_UploadPanelClaims.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7887" selectionTopPixel="1247"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyEnrollment_DataCheckBeforeStartEnrollment.java" partName="MyEnrollment_DataCheckBeforeStartEnrollment.java" path="D:/selenium/BA2/sources/test/src/com/test/MyEnrollment_DataCheckBeforeStartEnrollment.java" title="MyEnrollment_DataCheckBeforeStartEnrollment.java" tooltip="test/src/com/test/MyEnrollment_DataCheckBeforeStartEnrollment.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/MyEnrollment_DataCheckBeforeStartEnrollment.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="3229" selectionTopPixel="1065"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EnrolmentBenefitDetailsPage.java" partName="EnrolmentBenefitDetailsPage.java" path="D:/selenium/BA2/sources/test/src/com/test/common/EnrolmentBenefitDetailsPage.java" title="EnrolmentBenefitDetailsPage.java" tooltip="test/src/com/test/common/EnrolmentBenefitDetailsPage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/common/EnrolmentBenefitDetailsPage.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="450" selectionTopPixel="1836"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExecuteAutoIt.java" partName="ExecuteAutoIt.java" path="D:/selenium/BA2/sources/test/src/com/test/common/ExecuteAutoIt.java" title="ExecuteAutoIt.java" tooltip="test/src/com/test/common/ExecuteAutoIt.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/common/ExecuteAutoIt.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1429" selectionTopPixel="618"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dependent.java" partName="Dependent.java" path="D:/selenium/BA2/sources/test/src/com/test/common/Dependent.java" title="Dependent.java" tooltip="test/src/com/test/common/Dependent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/common/Dependent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="2337" selectionTopPixel="1604"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Claims_DataCheck_CreateNewClaim.java" partName="Claims_DataCheck_CreateNewClaim.java" path="D:/selenium/BA2/sources/test/src/com/test/Claims_DataCheck_CreateNewClaim.java" title="Claims_DataCheck_CreateNewClaim.java" tooltip="test/src/com/test/Claims_DataCheck_CreateNewClaim.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/Claims_DataCheck_CreateNewClaim.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5309" selectionTopPixel="2590"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CommonMethod.java" partName="CommonMethod.java" path="D:/selenium/BA2/sources/test/src/com/test/frameworkcore/CommonMethod.java" title="CommonMethod.java" tooltip="test/src/com/test/frameworkcore/CommonMethod.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/frameworkcore/CommonMethod.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="2832" selectionTopPixel="1139"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MA_MyEnrolmentBenefitTypeDetailCheck.java" partName="MA_MyEnrolmentBenefitTypeDetailCheck.java" path="D:/selenium/BA2/sources/test/src/com/test/MA_MyEnrolmentBenefitTypeDetailCheck.java" title="MA_MyEnrolmentBenefitTypeDetailCheck.java" tooltip="test/src/com/test/MA_MyEnrolmentBenefitTypeDetailCheck.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/MA_MyEnrolmentBenefitTypeDetailCheck.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="55" selectionOffset="2837" selectionTopPixel="516"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyEnrollment_DataCheck_BenefitType.java" partName="MyEnrollment_DataCheck_BenefitType.java" path="D:/selenium/BA2/sources/test/src/com/test/MyEnrollment_DataCheck_BenefitType.java" title="MyEnrollment_DataCheck_BenefitType.java" tooltip="test/src/com/test/MyEnrollment_DataCheck_BenefitType.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/MyEnrollment_DataCheck_BenefitType.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="62" selectionOffset="2631" selectionTopPixel="459"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Report.java" partName="Report.java" path="D:/selenium/BA2/sources/test/src/com/test/frameworkcore/Report.java" title="Report.java" tooltip="test/src/com/test/frameworkcore/Report.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/frameworkcore/Report.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="23" selectionOffset="8939" selectionTopPixel="3696"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SendEmail.java" partName="SendEmail.java" path="D:/selenium/BA2/sources/test/src/com/test/frameworkcore/SendEmail.java" title="SendEmail.java" tooltip="test/src/com/test/frameworkcore/SendEmail.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/frameworkcore/SendEmail.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="1271" selectionTopPixel="3321"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StartAumomation.java" partName="StartAumomation.java" path="D:/selenium/BA2/sources/test/src/com/test/frameworkcore/StartAumomation.java" title="StartAumomation.java" tooltip="test/src/com/test/frameworkcore/StartAumomation.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/frameworkcore/StartAumomation.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6208" selectionOffset="0" selectionTopPixel="3214"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Action.java" partName="Action.java" path="D:/selenium/BA2/sources/test/src/com/test/frameworkcore/Action.java" title="Action.java" tooltip="test/src/com/test/frameworkcore/Action.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/frameworkcore/Action.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StartAutomation.java" partName="StartAutomation.java" title="StartAutomation.java" tooltip="F:\selenium\workspace\webtest\src\com\alice\StartAutomation.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/F:/selenium/workspace/webtest/src/com/alice/StartAutomation.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="918"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MySeleneseTestCase.java" partName="MySeleneseTestCase.java" path="D:/selenium/BA2/sources/test/src/com/test/frameworkcore/MySeleneseTestCase.java" title="MySeleneseTestCase.java" tooltip="test/src/com/test/frameworkcore/MySeleneseTestCase.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/frameworkcore/MySeleneseTestCase.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="344" selectionTopPixel="68"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Login.java" partName="Login.java" path="D:/selenium/BA2/sources/test/src/com/test/Login.java" title="Login.java" tooltip="test/src/com/test/Login.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/Login.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="28" selectionOffset="722" selectionTopPixel="465"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ttttt.java" partName="ttttt.java" path="D:/selenium/BA2/sources/test/src/ttttt.java" title="ttttt.java" tooltip="test/src/ttttt.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/ttttt.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="173" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StartRCServer.java" partName="StartRCServer.java" path="D:/selenium/BA2/sources/test/src/com/test/frameworkcore/StartRCServer.java" title="StartRCServer.java" tooltip="test/src/com/test/frameworkcore/StartRCServer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/frameworkcore/StartRCServer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="189" selectionOffset="376" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MA_Terminated.java" partName="MA_Terminated.java" path="D:/selenium/BA2/sources/test/src/com/test/MA_Terminated.java" title="MA_Terminated.java" tooltip="test/src/com/test/MA_Terminated.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/MA_Terminated.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="1742" selectionTopPixel="102"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestCaseData.java" partName="TestCaseData.java" path="D:/selenium/BA2/sources/test/src/com/test/frameworkcore/TestCaseData.java" title="TestCaseData.java" tooltip="test/src/com/test/frameworkcore/TestCaseData.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/src/com/test/frameworkcore/TestCaseData.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="701" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SubTask.java" partName="SubTask.java" path="C:/Users/chenlin/workspace/AutoGenerateSubTask/createSubTask/SubTask.java" title="SubTask.java" tooltip="AutoGenerateSubTask/createSubTask/SubTask.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AutoGenerateSubTask/createSubTask/SubTask.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="221" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy">
+<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName="Aggregate for window 1394502643827"/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1394502643827">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="Hierarchy"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1d798a6c" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.46238717" ratioLeft="461" ratioRight="536" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.22103861" ratioLeft="166" ratioRight="585" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/MyEnrollment_DataCheck_BenefitNotInclude.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/MyEnrollment_DataCheck_SubmitHDF.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/frameworkcore/MySeleneseTestCase.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/Login.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/frameworkcore/StartAumomation.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/frameworkcore/StartRCServer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/frameworkcore/Report.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/DependentDetails.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/Claims_DataCheck_SearchClaim.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/MA_Terminated.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/frameworkcore/CommonMethod.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/DependentDetails.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/common/Dependent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/common/EnrolmentBenefitDetailsPage.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/MySeleneseTestCase.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/frameworkcore/StartAumomation.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/frameworkcore/TestCaseData.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/MyEnrollment_DataCheckBeforeStartEnrollment.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/MA_UploadPanelClaims.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/Claims_DataCheck_CreateNewClaim.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/frameworkcore/MySeleneseTestCase.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/frameworkcore/StartAumomation.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/DependentDetails.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/common/EnrolmentBenefitDetailsPage.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/test/src/com/test/frameworkcore/StartAumomation.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AutoGenerateSubTask/createSubTask/CreateSubTask.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AutoGenerateSubTask/createSubTask/SubTask.java"/>
+</editors>
+<item historyLabel="Report.java" index="6">
+<position info="not_deleted" x="17782" y="9"/>
+</item>
+<item historyLabel="Report.java" index="6">
+<position info="not_deleted" x="8939" y="23"/>
+</item>
+<item historyLabel="MyEnrollment_DataCheck_BenefitNotInclude.java" index="0">
+<position info="not_deleted" x="283" y="18"/>
+</item>
+<item historyLabel="DependentDetails.java" index="7">
+<position info="not_deleted" x="914" y="16"/>
+</item>
+<item historyLabel="Claims_DataCheck_SearchClaim.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DependentDetails.java" index="7">
+<position info="not_deleted" x="914" y="16"/>
+</item>
+<item historyLabel="MyEnrollment_DataCheck_SubmitHDF.java" index="1">
+<position info="not_deleted" x="3121" y="0"/>
+</item>
+<item historyLabel="DependentDetails.java" index="7">
+<position info="not_deleted" x="914" y="16"/>
+</item>
+<item historyLabel="Login.java" index="3">
+<position info="not_deleted" x="1653" y="0"/>
+</item>
+<item historyLabel="StartAumomation.java" index="4">
+<position info="not_deleted" x="2304" y="10"/>
+</item>
+<item historyLabel="Login.java" index="3">
+<position info="not_deleted" x="722" y="28"/>
+</item>
+<item historyLabel="MyEnrollment_DataCheck_BenefitNotInclude.java" index="0">
+<position info="not_deleted" x="283" y="18"/>
+</item>
+<item historyLabel="Login.java" index="3">
+<position info="not_deleted" x="722" y="28"/>
+</item>
+<item historyLabel="DependentDetails.java" index="7">
+<position info="not_deleted" x="914" y="16"/>
+</item>
+<item historyLabel="StartRCServer.java" index="5">
+<position info="not_deleted" x="376" y="189"/>
+</item>
+<item historyLabel="MySeleneseTestCase.java" index="2">
+<position info="not_deleted" x="344" y="18"/>
+</item>
+<item historyLabel="MA_Terminated.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CommonMethod.java" index="10">
+<position info="not_deleted" x="7258" y="6"/>
+</item>
+<item historyLabel="CommonMethod.java" index="10">
+<position info="not_deleted" x="2832" y="4"/>
+</item>
+<item historyLabel="StartAumomation.java" index="4">
+<position info="not_deleted" x="2304" y="10"/>
+</item>
+<item historyLabel="CommonMethod.java" index="10">
+<position info="not_deleted" x="2832" y="4"/>
+</item>
+<item historyLabel="StartAumomation.java" index="4">
+<position info="not_deleted" x="2304" y="10"/>
+</item>
+<item historyLabel="DependentDetails.java" index="11">
+<position info="not_deleted" x="914" y="16"/>
+</item>
+<item historyLabel="Dependent.java" index="12">
+<position info="not_deleted" x="3860" y="0"/>
+</item>
+<item historyLabel="Dependent.java" index="12">
+<position info="not_deleted" x="2337" y="16"/>
+</item>
+<item historyLabel="EnrolmentBenefitDetailsPage.java" index="13">
+<position info="not_deleted" x="450" y="9"/>
+</item>
+<item historyLabel="MySeleneseTestCase.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EnrolmentBenefitDetailsPage.java" index="13">
+<position info="not_deleted" x="450" y="9"/>
+</item>
+<item historyLabel="StartAumomation.java" index="15">
+<position info="not_deleted" x="4183" y="9"/>
+</item>
+<item historyLabel="TestCaseData.java" index="16">
+<position info="not_deleted" x="701" y="9"/>
+</item>
+<item historyLabel="StartAumomation.java" index="15">
+<position info="not_deleted" x="4183" y="9"/>
+</item>
+<item historyLabel="MyEnrollment_DataCheckBeforeStartEnrollment.java" index="17">
+<position info="not_deleted" x="3807" y="0"/>
+</item>
+<item historyLabel="MA_UploadPanelClaims.java" index="18">
+<position info="not_deleted" x="7887" y="0"/>
+</item>
+<item historyLabel="Claims_DataCheck_CreateNewClaim.java" index="19">
+<position info="not_deleted" x="5309" y="0"/>
+</item>
+<item historyLabel="MyEnrollment_DataCheckBeforeStartEnrollment.java" index="17">
+<position info="not_deleted" x="3807" y="0"/>
+</item>
+<item historyLabel="MySeleneseTestCase.java" index="20">
+<position info="not_deleted" x="344" y="18"/>
+</item>
+<item historyLabel="MySeleneseTestCase.java" index="20">
+<position info="not_deleted" x="909" y="11"/>
+</item>
+<item historyLabel="StartAumomation.java" index="21">
+<position info="not_deleted" x="4183" y="9"/>
+</item>
+<item historyLabel="DependentDetails.java" index="22">
+<position info="not_deleted" x="255" y="18"/>
+</item>
+<item historyLabel="MySeleneseTestCase.java" index="20">
+<position info="not_deleted" x="344" y="18"/>
+</item>
+<item historyLabel="EnrolmentBenefitDetailsPage.java" index="23">
+<position info="not_deleted" x="450" y="9"/>
+</item>
+<item historyLabel="StartAumomation.java" index="24">
+<position info="not_deleted" x="1208" y="0"/>
+</item>
+<item historyLabel="CreateSubTask.java" index="25">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="StartAumomation.java" index="24">
+<position info="not_deleted" x="1208" y="0"/>
+</item>
+<item historyLabel="CreateSubTask.java" index="25">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="StartAumomation.java" index="24">
+<position info="not_deleted" x="1208" y="0"/>
+</item>
+<item historyLabel="SubTask.java" index="26">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SubTask.java" index="26">
+<position/>
+</item>
+<item historyLabel="StartAumomation.java" index="24">
+<position info="not_deleted" x="0" y="6208"/>
+</item>
+<item active="true" historyLabel="SubTask.java" index="26">
+<position/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="right"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SubTask.java" tooltip="AutoGenerateSubTask/createSubTask/SubTask.java">
+<persistable path="/AutoGenerateSubTask/createSubTask/SubTask.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CreateSubTask.java" tooltip="AutoGenerateSubTask/createSubTask/CreateSubTask.java">
+<persistable path="/AutoGenerateSubTask/createSubTask/CreateSubTask.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestCaseData.java" tooltip="test/src/com/test/frameworkcore/TestCaseData.java">
+<persistable path="/test/src/com/test/frameworkcore/TestCaseData.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MA_Terminated.java" tooltip="test/src/com/test/MA_Terminated.java">
+<persistable path="/test/src/com/test/MA_Terminated.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyEnrollment_DataCheck_SubmitHDF.java" tooltip="test/src/com/test/MyEnrollment_DataCheck_SubmitHDF.java">
+<persistable path="/test/src/com/test/MyEnrollment_DataCheck_SubmitHDF.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Claims_DataCheck_SearchClaim.java" tooltip="test/src/com/test/Claims_DataCheck_SearchClaim.java">
+<persistable path="/test/src/com/test/Claims_DataCheck_SearchClaim.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StartRCServer.java" tooltip="test/src/com/test/frameworkcore/StartRCServer.java">
+<persistable path="/test/src/com/test/frameworkcore/StartRCServer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ttttt.java" tooltip="test/src/ttttt.java">
+<persistable path="/test/src/ttttt.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="ttttt" tooltip="test/src/com/test/ttttt">
+<persistable path="/test/src/com/test/ttttt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Login.java" tooltip="test/src/com/test/Login.java">
+<persistable path="/test/src/com/test/Login.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MySeleneseTestCase.java" tooltip="test/src/com/test/frameworkcore/MySeleneseTestCase.java">
+<persistable path="/test/src/com/test/frameworkcore/MySeleneseTestCase.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StartAutomation.java" tooltip="F:\selenium\workspace\webtest\src\com\alice\StartAutomation.java">
+<persistable uri="file:/F:/selenium/workspace/webtest/src/com/alice/StartAutomation.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Action.java" tooltip="test/src/com/test/frameworkcore/Action.java">
+<persistable path="/test/src/com/test/frameworkcore/Action.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StartAumomation.java" tooltip="test/src/com/test/frameworkcore/StartAumomation.java">
+<persistable path="/test/src/com/test/frameworkcore/StartAumomation.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Properties.class" tooltip="java.util.Properties">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=test/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.util(Properties.class"/>
+</file>
+</mruList>
+</workbench>

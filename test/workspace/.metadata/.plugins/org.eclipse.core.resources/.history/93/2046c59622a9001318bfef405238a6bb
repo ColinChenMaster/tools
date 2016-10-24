@@ -1,0 +1,50 @@
+package com.test;
+
+import java.util.Map;
+
+import com.thoughtworks.selenium.Selenium;
+
+
+public class Login extends MySeleneseTestCase {
+	
+	
+	
+	public Login(Selenium selenium, Map<String, String> value, Report report) {
+		super(selenium, value, report);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Before
+/*	public void setUp() throws Exception {
+		selenium = new DefaultSelenium("localhost", 4444, "*chrome", "");
+		selenium.start();
+	}
+*/
+	@Test
+	public void doExecute() throws Exception {
+		String ActualVaule="";
+		String URL=getValue("URL");
+		String UserId=getValue("UserId");
+		String Password=getValue("Password");
+		selenium.open(URL);
+		selenium.waitForPageToLoad("700000");
+		//Thread.sleep(60000);
+		selenium.type("//input[contains(@id,'LoginDefault_SignIn1_txtUsername')]",UserId);
+		//selenium.type("id=dnn_ctr1377_LoginDefault_SignIn1_txtUsername",UserId);
+		ActualVaule=selenium.getValue("//input[contains(@id,'LoginDefault_SignIn1_txtUsername')]");
+		System.out.print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+selenium.getAttribute("//input[contains(@id,'LoginDefault_SignIn1_txtUsername')]@id"));
+		this.checkResult("UserId", getValue("sheetRow"),getValue("UserId") ,ActualVaule);
+	    //selenium.type("//input[@id='dnn_ctr1377_LoginDefault_SignIn1_txtPassword']", Password);
+	    selenium.type("//input[contains(@id,'LoginDefault_SignIn1_txtPassword')]", Password);
+		selenium.click("//input[@type='submit' and contains(@id,'LoginDefault_SignIn1_cmdLogin')]");
+		selenium.waitForPageToLoad("80000");
+		//assertEquals("Home", selenium.getTitle());
+		  selenium.click("//td[@class='dnn_dnnsolpartmenu_ctldnnsolpartmenu_spmitm MainMenu_SubMenuItem1'and contains(text(),'My Enrollment')]"); 
+		 // selenium.click("//td[contains(text(),'Home')]"); 
+		//selenium.click("css=#tddnn_dnnSOLPARTMENU_ctldnnSOLPARTMENU1394 > td");
+		selenium.waitForPageToLoad("80000");
+		//assertEquals("Home", selenium.getTitle());
+	}
+
+	
+}

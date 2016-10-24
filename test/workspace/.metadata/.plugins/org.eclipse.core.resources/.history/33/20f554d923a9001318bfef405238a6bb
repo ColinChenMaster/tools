@@ -1,0 +1,200 @@
+package com.test;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.lang.reflect.Constructor;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import jxl.Cell;
+import jxl.Sheet;
+import jxl.Workbook;
+import jxl.read.biff.BiffException;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.BlockJUnit4ClassRunner;
+
+
+import com.thoughtworks.selenium.DefaultSelenium;
+import com.thoughtworks.selenium.SeleneseTestBase;
+import com.thoughtworks.selenium.Selenium;
+
+public class Search {
+	private Selenium selenium;
+
+	public static void main(String[] args) {
+		try {
+			Search search = new Search();
+			search.setUp();
+			search.testSearch();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public void setUp() throws Exception {
+
+		String browserType = "*firefox";
+
+		selenium = new DefaultSelenium("localhost", 4444, browserType,
+				"https://www.baidu.com");
+		selenium.start();
+		selenium.useXpathLibrary("javascript-xpath");
+		// selenium.setSpeed("2000");
+		selenium.windowMaximize();
+
+	}
+
+	public void testSearch() throws Exception {
+		File file = new File("F:\\selenium\\eclipse\\Testcase");
+		for (File tempFile : file.listFiles()) {
+			DateFormat format = new SimpleDateFormat("yyyyMMddHHmmss");
+			Report report = new Report();
+
+			report.initReport(
+					"F:\\selenium\\eclipse\\BA2\\report",
+					"F:\\selenium\\eclipse\\BA2\\report\\"
+							+ format.format(new Date()));
+			try {
+				Workbook workBook = null;
+
+				try {
+					// loaded the excel file
+					workBook = Workbook.getWorkbook(tempFile);
+				} catch (FileNotFoundException e) {
+					e.printStackTrace();
+				} catch (BiffException e) {
+					e.printStackTrace();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+
+				// getSheets() return Sheet[]
+				// Sheet sheet = workBook.getSheet(0); get the first
+				// sheet，default from 0
+				Sheet dataDic = workBook.getSheet("DataDic");
+				Sheet sheet = workBook.getSheet("TestCase");
+
+				Cell cell = null;// Single cell instance
+				// Start loop get cell value ，return type: String
+
+				for (int i = 4; i < sheet.getRows(); i++) {
+
+					try {
+						TestCaseData testCaseData = new TestCaseData();
+
+						cell = sheet.getCell(1, i);
+						testCaseData.setTestCaseName(cell.getContents());
+
+						report.initTC(testCaseData.getTestCaseName());
+
+						String[] actions = new String[sheet.getColumns() - 2];
+						for (int j = 2; j < sheet.getColumns(); j++) {
+							cell = sheet.getCell(j, i);
+							actions[j - 2] = cell.getContents();
+							System.out.println("cell.getContents()::"
+									+ cell.getContents() + j);
+						}
+						testCaseData.setActions(actions);
+						List<Map> values = this.getTestCaseValues(workBook
+								.getSheet(testCaseData.getTestCaseName()));
+						testCaseData.setValues(values);
+						System.out.println(actions.length);
+						for (Map value : testCaseData.getValues()) {
+
+							for (String action : actions) {
+								System.out.println("Action" + action);
+								try {
+									if (action != null && action.length() > 0) {
+
+										report.initAction(action);
+
+										try {
+											Constructor<Action> c = (Constructor<Action>) Class
+													.forName(
+															"com.test."
+																	+ action)
+													.getConstructor(
+															Selenium.class,
+															Map.class,
+															Report.class);
+											Action gm = c.newInstance(selenium,
+													value, report);
+											gm.doExecute();
+										} catch (Exception e) {
+											e.printStackTrace();
+										}
+										report.endAction();
+									}
+									/*
+									 * System.out.println("url:" +
+									 * value.get("URL")); selenium.open((String)
+									 * value.get("URL")); assertEquals("Google",
+									 * selenium.getTitle());
+									 * 
+									 * // selenium.click("css=input.lsb"); //
+									 * hap.get("searchvalue") String searchtext
+									 * = "QTP"; selenium.type("id=lst-ib",
+									 * searchtext); System.out .println(
+									 * "testSearchtestSearchtestSearch end!");
+									 */
+								} catch (Throwable e) {
+									e.printStackTrace();
+								}
+							}
+						}
+					} catch (Throwable e) {
+						e.printStackTrace();
+					}
+					report.endTC();
+				}
+				workBook.close();
+
+				report.endReport();
+			} catch (Throwable e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+	private static List<Map> getTestCaseValues(Sheet sheet) {
+		String[] keys = new String[sheet.getColumns()];
+		Cell cell = null;
+		for (int j = 0; j < sheet.getColumns(); j++) {
+			cell = sheet.getCell(j, 0);
+			keys[j] = cell.getContents();
+		}
+		List<Map> maps = new ArrayList<Map>();
+		Map values = null;
+		for (int i = 1; i < sheet.getRows(); i++) {
+			values = new HashMap();
+			values.put("sheetRow", "" + i);
+			for (int j = 0; j < sheet.getColumns(); j++) {
+				cell = sheet.getCell(j, i);
+				values.put(keys[j], cell.getContents());
+			}
+			System.out.println(values);
+			maps.add(values);
+
+			// execute action
+		}
+		return maps;
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		// selenium.stop();
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.test;
+
+import java.util.Map;
+
+public class DependentDetails extends MySeleneseTestCase{
+
+	public DependentDetails(Selenium selenium, Map<String, String> value,
+			Report report) {
+		super(selenium, value, report);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	public void doExecute() throws Exception {
+	    
+		  String title="";
+	      selenium.click("//td[@class='dnn_dnnsolpartmenu_ctldnnsolpartmenu_spmitm MainMenu_SubMenuItem1'and contains(text(),'Dependent Details')]");
+	      selenium.waitForPageToLoad("60000");
+	      title=selenium.getTitle();
+		  title=title.trim();
+		  if ( title.length()>0 && title.indexOf("Dependent Details")>0){
+			  Dependent myDep = new Dependent(selenium, value, report);
+			  
+			  myDep.dependentSummary();
+			  
+		  }else{
+			  this.checkResult("Dependent Details", getValue("sheetRow"),"Checking successfully","Failed to access to the dependent details page"); 
+		  }
+		
+		
+	}
+}

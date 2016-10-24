@@ -1,0 +1,225 @@
+package com.test;
+
+import java.awt.Robot;
+import java.io.File;
+import java.io.IOException;
+import java.util.Map;
+
+import javax.swing.filechooser.FileSystemView;
+
+import jxl.Cell;
+import jxl.Sheet;
+import jxl.Workbook;
+import jxl.read.biff.BiffException;
+
+import com.test.common.BA2GlobalVariable;
+
+import com.test.common.ExecuteAutoIt;
+import com.test.frameworkcore.MySeleneseTestCase;
+import com.test.frameworkcore.Report;
+
+import com.thoughtworks.selenium.Selenium;
+
+public class MA_UploadPanelClaims extends MySeleneseTestCase {
+
+	public MA_UploadPanelClaims(Selenium selenium, Map<String, String> value,
+			Report report) {
+		super(selenium, value, report);
+		// TODO Auto-generated constructor stub
+	}
+	String uploadType=getValue("UploadType.PanelClaimsUpload");
+	String serviceProvider=getValue("PanelServiceProvider.UploadPanelClaimsData");
+	String CSVFile=getValue("CSVFileforPanelClaims.UploadPanelClaims");
+	String excelFileSavePath=getValue("ExcelFilefromUploadLog.UploadPanelClaims");
+	String actualValue="";
+	String locator="";
+	
+	public void doExecute() throws Exception {
+		
+		locator="//td[@unselectable='on' and contains(text(),'Implementation')and not(@id)]";
+		commonMethod.wait(selenium, locator, 30);
+		selenium.click(locator);
+	    locator="//td[contains(@id,'tddnn_dnnSOLPARTMENU_ctldnnSOLPARTMENU3379')]";
+	    commonMethod.wait(selenium, locator, 30);
+	    if(selenium.isElementPresent(locator)){
+	    	selenium.click(locator);
+	    	locator="//select[contains(@id,'PanelClaimsUpload_ddlUploadType')]";
+	    	commonMethod.wait(selenium, locator, 50);
+	    	if(selenium.isElementPresent(locator)){
+	    		selenium.select(locator, "label="+uploadType);
+	    		actualValue=selenium.getSelectedLabel(locator);
+	    		this.checkResult("Upload Type", getValue("sheetRow"),uploadType ,actualValue); 
+	    		locator="//select[contains(@id,'_PanelClaimsUpload_ddlPanelProvider')]";
+	    		selenium.select(locator, "label="+serviceProvider);
+	    		actualValue=selenium.getSelectedLabel(locator);
+	    		this.checkResult("Panel Service Provider", getValue("sheetRow"),serviceProvider ,actualValue); 
+	    		if (report.getBrowserType().contains("iexplore")){
+	    			    value.put("DataFile", CSVFile);  	         
+	    	            Thread t=new Thread(new ExecuteAutoIt(selenium,value,report));
+	    	            t.start();
+	    	            t.sleep(3000);
+	    	            locator="//input[contains(@id,'PanelClaimsUpload_fupCSVFile1')]";
+	    	            selenium.fireEvent(locator, "blur");
+	    	    	    selenium.click(locator);       
+	    	    	    actualValue=selenium.getValue(locator);
+	    	    	    this.checkResult("Upload file", getValue("sheetRow"),CSVFile ,CSVFile);
+	    	    	    
+             	    this.SubmitUploadFile();    
+			    }else{
+				
+				Thread.sleep(1000);
+				locator="//input[contains(@id,'PanelClaimsUpload_fupCSVFile1')]";
+				selenium.type(locator,CSVFile );
+				actualValue=selenium.getValue(locator);
+				
+	    	    this.checkResult("Upload file", getValue("sheetRow"),CSVFile ,CSVFile);
+	    	    
+				//selenium.click("//contains[(@id,'EmployeeData_btnStartUpload')]");
+				//selenium.getConfirmation().matches("^You are about to begin the data upload\\.\nBy Clicking \"OK\" the system will Proceed with the upload and it is not interruptable during the processing\\.\nDo you want to proceed[\\s\\S]$");
+				 this.SubmitUploadFile();  
+			 }	 
+	    		
+	    	}else{
+	    		this.checkResult("Panel Claims Upload", getValue("sheetRow"),"Panel Claims Upload Successfully" ,"Failed to access to the page Panel Claims Upload"); 
+	    	}
+	    }else{
+	    	this.checkResult("Panel Claims Upload", getValue("sheetRow"),"Panel Claims Upload Successfully" ,"Failed to found the link of Panel Claims Upload"); 
+	    }
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	public void SubmitUploadFile() throws Exception{
+		
+	      locator="//input[contains(@id,'PanelClaimsUpload_btnStartUpload')]";
+		  selenium.click(locator);
+		  Thread.sleep(2000);
+		  selenium.getConfirmation();
+		  locator="//span[contains(@id,'PanelClaimsUpload_lblNoOfRecordsSuccessfullyUploaded')]";
+		  commonMethod.wait(selenium,locator, 30);
+		  
+		  if(selenium.isElementPresent(locator)){
+		   String SuccessUpload=selenium.getText(locator).trim();
+		   locator="//span[contains(@id,'PanelClaimsUpload_lblNoOfRecordsProcessed')]";	   
+		   String RecordsProcessed=selenium.getText(locator).trim();
+		  
+		   if(SuccessUpload.equals(RecordsProcessed)){
+		   this.checkResult("Upload Panel Claims", getValue("sheetRow"),"Sumbit Data Success" ,"Sumbit Data Success"); 
+			/*locator="//input[contains(@id,'PanelClaimsUpload_btnSummaryExcel')]";
+			selenium.click(locator);
+			 String mydownloadpath="";
+					if (report.getBrowserType().contains("iexplore")){
+						
+						 report.setActionName("MA_DownLoadPanelClaims");		    			
+			    		  //mydownloadpath="D:\\selenium\\BA2\\Testcase";
+			    		  mydownloadpath=excelFileSavePath+"\\Download.xls";
+			    		  CommonMethod.deleteFile(new File(mydownloadpath),".xls");
+			    		  value.put("DataFile",mydownloadpath);
+			    		  System.out.println(mydownloadpath);
+		  			      Thread t=new Thread(new ExecuteAutoIt(selenium,value,report));
+			              t.start();
+			              t.sleep(10000);
+			              locator="//input[contains(@id,'SearchEmployee_btnSummaryReport')]";
+			    		  selenium.click(locator);
+			    		  report.setActionName("MA_UploadPanelClaims");	
+			    		
+			    		 
+			    		
+			             
+		  		}else{
+	    			 FileSystemView fsv = FileSystemView.getFileSystemView();
+	    			 mydownloadpath=fsv.getHomeDirectory().getParent();
+	    			 System.out.println("mydownloadpath"+mydownloadpath);
+	    			 mydownloadpath=mydownloadpath+"\\My Documents\\Downloads";
+	    			 System.out.println("mydownloadpath"+mydownloadpath);
+	    			 CommonMethod.deleteFile(new File(mydownloadpath),".xls");
+	    			 
+	    			 locator="//input[contains(@id,'SearchEmployee_btnSummaryReport')]";
+	    			 selenium.focus(locator);
+	    			 selenium.fireEvent(locator, "blur");
+   	    		     selenium.click(locator);
+   	    		     Thread.sleep(3000);
+   	    		     selenium.keyPressNative(Integer.toString(java.awt.event.KeyEvent.VK_DOWN)); 
+   	    		     Thread.sleep(1000);
+   	    		     selenium.keyPressNative(Integer.toString(java.awt.event.KeyEvent.VK_ENTER)); 
+   	    		     Thread.sleep(3000);
+   	    		 
+                     Robot robot=new Robot();
+                     robot.keyPress(18);
+                     robot.keyPress(115);
+                     robot.keyRelease(115);
+                     robot.keyRelease(18);
+                     Thread.sleep(5000);
+                }    
+					 getTransactionCode(mydownloadpath);*/
+		   }else{
+			  this.checkResult("Upload Panel Claims", getValue("sheetRow"),"Sumbit Data Success" ,"Sumbit Data Failed"); 
+			  report.setExecutFlag("no"); 
+		  }
+    }else{
+  	  this.checkResult("Upload Panel Claims", getValue("sheetRow"),"Uploaded Successfully " ,"Failed to Uploaded Panel Claims");
+	      report.setExecutFlag("no"); 
+    }
+	
+}	
+	
+  private void getTransactionCode(String filePath) throws Exception{
+	  int columnCount=0;
+	  int rowCounts=0;
+	  int columnIndex=0;
+	  String successFlag="";
+	  String transactionCode="";
+	  
+	  File myFile=new File(filePath);
+	  
+	  try {
+		  Workbook workBook = null;
+		  for (File tempFile : myFile.listFiles()) {
+			  if(tempFile.getPath().contains("ExportSummaryExcel")){
+				    System.out.println("tempFile.getPath()"+tempFile.getPath());
+				    
+				    //filePath=tempFile.getPath();
+				    String mytesting="C:\\Framework\\temp\\test.xls";
+				    filePath=mytesting;
+				    workBook=Workbook.getWorkbook(new File(mytesting));
+					Sheet sheet=workBook.getSheet(0);
+					columnCount=sheet.getColumns();
+					rowCounts=sheet.getRows();
+					columnIndex=columnCount-1;
+					successFlag=commonMethod.readExelCell(filePath, 0, columnIndex,rowCounts );
+					System.out.println("successFlag"+successFlag);
+					if(successFlag.equalsIgnoreCase("Success")){
+						columnIndex=columnIndex+1;
+						transactionCode=commonMethod.readExelCell(filePath, 0, columnIndex,rowCounts);
+						System.out.println("transactionCode"+transactionCode);
+						if(transactionCode.length()>0){
+							if((report.globalVariable==null)){
+								   report.globalVariable=new BA2GlobalVariable();  
+							 }
+							report.globalVariable.setTransantionCodeSingleSubmit(transactionCode);
+							this.checkResult("Upload Panel Claims", getValue("sheetRow"),"Uploaded Successfully and Transaction Code "+transactionCode ,"Uploaded Successfully and Transaction Code "+transactionCode);
+						}else{
+							this.checkResult("Upload Panel Claims", getValue("sheetRow"),"Uploaded Successfully " ,"Uploaded Panel Claims Failed, No Transaction Code generated");
+						}
+					}else{
+						this.checkResult("Upload Panel Claims", getValue("sheetRow"),"Uploaded Successfully " ,"Uploaded Panel Claims Failed, No Transaction Code generated");
+					}
+				  
+			  }
+		  }
+		
+		
+	  } catch (BiffException | IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	  }
+	 
+  }
+	
+	
+}

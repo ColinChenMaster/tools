@@ -1,0 +1,37 @@
+package createSubTask;
+
+import java.io.File;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class SubTask {
+
+public static void main(String[] args) {
+System.setProperty("webdriver.firefox.bin",
+"C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe");
+WebDriver driver = new FirefoxDriver();
+driver.get("http://www.baidu.com/");
+
+driver.manage().window().maximize();
+
+WebElement txtbox = driver.findElement(By.name("wd"));
+txtbox.sendKeys("Glen");
+
+WebElement btn = driver.findElement(By.id("su"));
+btn.click();
+
+driver.close();
+
+}
+public static void StartChrome(){
+        System.out.println("start firefox browser...");        
+         System.setProperty("webdriver.chrome.driver", new File("chromedriver.exe").getAbsolutePath());//指定驱动路径
+         WebDriver driver = new ChromeDriver();
+         driver.get("http://www.baidu.com/");
+        System.out.println("start firefox browser succeed...");        
+     }
+}
